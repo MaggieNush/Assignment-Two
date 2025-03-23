@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Lists, Images, Tables & Forms</title>
+  </head>
+  <body>
+    <!--Ordered Shopping List-->
+    <h1>Shopping List</h1>
+    <h3>Items</h3>
+    <ol type="i">
+      <li>Rice</li>
+      <li>Beans</li>
+      <li>Flour</li>
+      <li>Tissue Paper</li>
+    </ol>
+    <!--Location Details-->
+    <h1>Where to Buy</h1>
+    <h3>Grocery Stall 42</h3>
+    <img src="/imgs/Grocery Stall.jpg" alt="Image of a Grocery Stall" width="450" height="300"/>
+    <h1>Contact Person</h1>
+    <h3>Stall Owner</h3>
+    <!--Contact Details-->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Names</th>
+          <th>Address</th>
+          <th>Phone Number</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Wachira</td>
+          <td>Kamukunji Market Stall 42</td>
+          <td>0712345678</td>
+          <td>johnwachira@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--Order Form-->
+    <h1>Order Form</h1>
+    <form action="" method="">
+      <label for="name">Name:</label>
+      <input type="text" id="customer_name" name="customer_name" required/>
+      <br><br/>
+
+      <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="female"> Female
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <br><br>
+
+      <label for="name">New Customer:</label>
+      <select name="dropdown">New Customer:</label>
+        <option value="Yes">Yes</option> required/>
+        <option value="No">No</option> required/>
+        </select> <br><br>
+
+      <label for="">Email:</label>
+      <input type="text" name="useremail" required/>
+      <br><br/>
+
+      <label for="">Password:</label>
+      <input type="password" name="password" minlength="8" maxlength="20">
+      <br><br/>
+
+      <label for="">Order Date:</label>
+      <input type="date" name="order_date" required/>
+      <br><br/>
+
+      <label for="">Rate Your Experience:</label>
+        <input type="checkbox" name="Poor" value="Poor"> Poor
+        <input type="checkbox" name="Good" value="Good"> Good
+        <input type="checkbox" name="Excellent" value="Excellent"> Excellent
+        <br><br>
+      <input type="submit" value="Submit" />
+  </body>
+</html>
